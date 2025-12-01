@@ -2,8 +2,6 @@
 
 This guide documents how to deploy the chat application stack onto a Kubernetes cluster, manage sensitive configuration, and operate the workload day-to-day. The manifests were authored and tested on Minikube, but work on any conformant cluster with equivalent resources.
 
-> This project is a Kubernetes-focused fork of `iemafzalhassan/full-stack_chatApp`. The original frontend and backend code come from that repo; all `k8s/` manifests were authored in this fork to enable cluster-ready deployments.
-
 ## Prerequisites
 
 - Kubernetes cluster v1.24+ with `kubectl` access
