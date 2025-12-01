@@ -15,11 +15,9 @@ This guide documents how to deploy the chat application stack onto a Kubernetes 
 ## Repository Layout
 
 ```
-full-stack_chatApp/
+
 ├── backend/              # Node.js/Express API
 ├── frontend/             # Vite/React UI served by NGINX
-├── docker-compose.yml    # Local dev stack
-├── Jenkinsfile           # CI/CD pipeline example
 └── k8s/                  # Kubernetes manifests
     ├── namespace.yml
     ├── secret.yml
@@ -31,6 +29,8 @@ full-stack_chatApp/
     ├── backend-svc.yml
     ├── deploy-frontend.yml
     └── frontend-svc.yml
+├── docker-compose.yml    # Local dev stack
+|── Jenkinsfile           # CI/CD pipeline example
 ```
 
 ## Build and Push Images
